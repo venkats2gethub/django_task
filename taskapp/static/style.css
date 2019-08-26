@@ -1,0 +1,44 @@
+h1{
+
+	color: white;
+	font-weight: bold;
+}
+
+p{
+
+	color: cyan;
+}
+
+.container{
+	width: 600px;
+	text-align: justify-all;
+	margin: auto;
+	background-color: #3393FF;
+	color: blue;
+	box-sizing: content-box;
+	border:  2px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+input[type=text], select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=number], select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  

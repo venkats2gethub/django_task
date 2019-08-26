@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form1</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+<div class="container">
+<form action="form1" method="POST">
+	{% csrf_token %}
+	<h1>Proposal and Justification</h1>
+	<p>Proposal</p> <input type="text" name="text1">
+	<p>Justification of expenses</p> <input type="text" name="text2">
+	<h1>Internal Account Section</h1>
+	<p>Historical data</p> <input type="text" name="text3">
+	<p>Cost center</p><input type="text" name="text4">
+	<p>Incharge</p><input type="text" name="text5">
+	<p><button>add expenses</button></p>
+	<h1>Details of expenses</h1>
+	<p>Description-of-goods:</p><input type="text" name="text6">
+	<p>Quantity:</p><input type="number" name="num1">
+	<p>Nature:</p><input type="text" name="text7">
+	<p>Date:</p><input type="Date" name="date1">
+	<p>Amount:</p><input type="number" name="num2">
+	<p><button>add</button><button>edit</button></p>
+	<input type="submit" name="submitform" value="submit1">
+</form>
+</div>
+</body>
+</html>
